@@ -1,4 +1,5 @@
 .venv/
-data/
+Docs/
+Project/data/
 __pycache__/
 .ipynb_checkpoints/
