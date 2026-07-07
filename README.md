@@ -11,3 +11,10 @@
 - Explore distributions of the five key variables: ClosePrice, LivingArea, Bedrooms, Bathrooms, LotSize.
 - Restrict analysis to PropertyType = Residential and PropertySubType =
 SingleFamilyResidence.
+
+### Week 3 - Data Preprocessing
+- Create a train/test split,
+    - Most recent (May 2026) as test and 11 months prior as train.
+- Handle missing values for the key variables: used median from the training set to replace missing values for LivingArea, Bedrooms, Bathrooms, and LotSize.
+- Encoded a selection of categorical fields to numeric.
+- Save the cleaned CSV files.
