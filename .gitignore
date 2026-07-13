@@ -1,7 +1,6 @@
 .venv/
 Docs/
 data/
-data_cleaned/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
