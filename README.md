@@ -34,3 +34,6 @@ SingleFamilyResidence.
 - Try Decision Tree and Random Forest regressors.
 - Compare the test R^2 against baseline.
 - Document model behavior (strengthe/weaknesses).
+
+### Week 6 - Feature Engineering
+- Updated all previous notebooks where everything is shifted forward by one month for the newest dataset available (June 2026).
