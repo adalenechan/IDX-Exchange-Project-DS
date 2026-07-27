@@ -37,3 +37,6 @@ SingleFamilyResidence.
 
 ### Week 6 - Feature Engineering
 - Updated all previous notebooks where everything is shifted forward by one month for the newest dataset available (June 2026).
+- Re-train all three models with including the sample features PropertyAge (CURRENT YEAR - YearBuilt), BedBathRatio (BedroomsTotal / BathroomsTotalInteger), and SchoolDistrict.
+  - SchoolDistrict is a more detailed geographic layered obtained from spatially joining each property's coordinates (longitude and latitude) against the CA School District Areas 25-26 boundaries.
+- Compared the new results with previous results.
