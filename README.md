@@ -33,10 +33,15 @@ SingleFamilyResidence.
 ### Week 5 - Additional Models
 - Try Decision Tree and Random Forest regressors.
 - Compare the test R^2 against baseline.
-- Document model behavior (strengthe/weaknesses).
+- Document model behavior (strengths/weaknesses).
 
 ### Week 6 - Feature Engineering
 - Updated all previous notebooks where everything is shifted forward by one month for the newest dataset available (June 2026).
 - Re-train all three models with the updated feature sets that include PropertyAge (CURRENT YEAR - YearBuilt), BedBathRatio (BedroomsTotal / BathroomsTotalInteger), and SchoolDistrict.
   - SchoolDistrict is a more detailed geographic feature obtained by spatially joining each property's coordinates (longitude and latitude) against the CA School District Areas 25-26 boundaries.
 - Compared the new results with previous results.
+
+### Week 7 - Advanced Models
+- Try Gradient Boosting
+  - Used XGBoost
+- Perform light hyperparameter tuning (depth, learning rate, n_estimators)
