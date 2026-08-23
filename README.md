@@ -12,6 +12,9 @@
 - Restrict analysis to PropertyType = Residential and PropertySubType =
 SingleFamilyResidence.
 
+*Results*
+- 
+
 ### Week 3 - Data Preprocessing
 - Create a train/test split,
     - Most recent (May 2026) as test and 11 months prior as train.
@@ -22,7 +25,7 @@ SingleFamilyResidence.
 - Encoded a selection of categorical fields to numeric.
 - Save the cleaned CSV files.
 
-#### Results
+*Results*
 - 
 
 ### Week 4 - Baseline Model
@@ -33,10 +36,16 @@ SingleFamilyResidence.
 - Evaluate using R^2 on the test set.
 - Record baseline results.
 
+*Results*
+- 
+
 ### Week 5 - Additional Models
 - Try Decision Tree and Random Forest regressors.
 - Compare the test R^2 against baseline.
 - Document model behavior (strengths/weaknesses).
+
+*Results*
+- 
 
 ### Week 6 - Feature Engineering
 - Updated all previous notebooks where everything is shifted forward by one month for the newest dataset available (June 2026).
@@ -44,11 +53,22 @@ SingleFamilyResidence.
   - SchoolDistrict is a more detailed geographic feature obtained by spatially joining each property's coordinates (longitude and latitude) against the CA School District Areas 25-26 boundaries.
 - Compared the new results with previous results.
 
+*Results*
+- 
+
 ### Week 7 - Advanced Models
 - Try Gradient Boosting
   - Used XGBoost
 - Perform light hyperparameter tuning (depth, learning rate, n_estimators)
 
+*Results*
+- 
+
 ### Week 8 - Evaluation Expansion
 - Compute metrics beyond R^2 scores (MAPE and MdAPE) for all models tested.
 - Summarize insights (e.g., which price bands performed better)
+
+*Results*
+- 
+
+
