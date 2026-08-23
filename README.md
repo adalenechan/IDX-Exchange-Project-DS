@@ -22,6 +22,9 @@ SingleFamilyResidence.
 - Encoded a selection of categorical fields to numeric.
 - Save the cleaned CSV files.
 
+#### Results
+- 
+
 ### Week 4 - Baseline Model
 - Train a Linaer Regression as the first model.
   - Trained on mutiple versions of feature sets.
@@ -45,3 +48,7 @@ SingleFamilyResidence.
 - Try Gradient Boosting
   - Used XGBoost
 - Perform light hyperparameter tuning (depth, learning rate, n_estimators)
+
+### Week 8 - Evaluation Expansion
+- Compute metrics beyond R^2 scores (MAPE and MdAPE) for all models tested.
+- Summarize insights (e.g., which price bands performed better)
